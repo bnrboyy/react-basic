@@ -1,0 +1,11 @@
+.expense {
+    border-right: 5px solid red;
+}
+
+.income {
+    border-right: 5px solid green;
+}
+
+ul {
+    margin-left: -41px;
+}

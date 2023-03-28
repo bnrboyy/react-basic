@@ -15,3 +15,42 @@
     margin: 10px 0;
     border-radius: 10px;
 }
+
+.report-container {
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    margin: 15px 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.report-container>div {
+    flex: 1;
+    text-align: center;
+}
+
+.report-income, .report-expense {
+    border-right: 2px solid #dedede;
+}
+
+.button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button button {
+    width: 100px;
+    font-size: 16px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button button:hover {
+    background-color: orange;
+    color: #fff;
+}
